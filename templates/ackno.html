@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leaf Disease Identification</title>
+  <link rel="stylesheet" href="./static/css/final.css">
+</head>
+
+<body>
+  <div class="app-wrapper">
+    <img src="./static/logo.jpeg" alt="" class="logo" />
+    <img src="./static/img1.jpeg" alt="" class="img1" />
+    <img src="./static/img2.jpeg" alt="" class="img2" />
+
+    <div class='box-cont'>
+      <h1 class="header">
+        Leaf Disease Identification
+      </h1>
+
+      <div class="selected-img-wrapper">
+        <img src="data:image/png;base64,{{ encoded_image }}" alt="" class="selected-img" />
+        <p class="response"> {{name}} </p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
